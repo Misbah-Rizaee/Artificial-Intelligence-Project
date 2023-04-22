@@ -1,14 +1,14 @@
 
-## Sudoku Constraint Satisfaction Agent
+### Sudoku Constraint Satisfaction Agent
 
 This agent will solve any Sudoku puzzle using constraing satisfaction with Pulp package from python. 
 
-## To install the required dependencies, execute the following command 
+### To install the required dependencies, execute the following command 
 
 ```bash
 pip install -r requirements.txt
 ```
- ## Run the program
+### Run the program
  
 replace puzzle with the name of the puzzles exist in samples folder.
 
