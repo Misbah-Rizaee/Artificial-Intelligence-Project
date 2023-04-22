@@ -1,20 +1,13 @@
 # AI GROUP PROJECT
+
 ## Solving Sudoku Puzzles with AI
 
-Sudoku puzzle is a classic problem in which missing digits
-are to be placed into a 9x9 grid of squares that are split into 3x3 boxes so
-that the numbers 1 through 9 appear only once in every row, column, and
-box. Although every Sudoku puzzle has solution, they involve different
-levels of hardship. In this paper, we introduce, implement and analyze
-some of the AI algorithms suitable including uniformed-search, genetic
-algorithms, constraint satisfaction and convolutional neural network to
-solve any given Sudoku puzzles. The results are compared with respect
-to the time taken and memory consumed by each algorithms
+This project on Sudoku game finds how well different algorithms can solve any Sudoku puzzles in few seconds. The objectives of this research are to compare and contrast the performance of these algorithms and examine which one is faster. 
+
 
 ### Sudoku Search Agent
 
-The seach agent finds solutions for a given incomplete sudoku puzzle using Depth-first seach and Breadth-first search.
-To solve sudoku puzzles using seach algorithms, go to SudokuSearchAgent directory.
+The seach agent finds solutions for a given incomplete sudoku puzzle using Depth-first seach and Breadth-first search. To solve sudoku puzzles using seach algorithms, go to SudokuSearchAgent directory.
 
 #### To install the required dependencies, execute the following command 
 
@@ -110,8 +103,7 @@ The output should look like this:
 
 ### Sudoku CNN Algorithm
 
-To use this agent, go to SudokuCNNSolver folder. We have already included the pretrained model `best_weights.hdf5` which can be used to
-solve the different categories of sudoku puzzles. 
+To use this agent, go to SudokuCNNSolver folder. We have already included the pretrained model `best_weights.hdf5` which can be used to solve the different categories of sudoku puzzles. 
 
 #### To install the required dependencies, execute the following command:
 
